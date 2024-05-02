@@ -1,4 +1,3 @@
-
 SYS_draw_window		equ		0
 SYS_check_for_event	equ		11
 SYS_get_button_info	equ		17
