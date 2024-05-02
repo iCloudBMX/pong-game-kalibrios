@@ -1,26 +1,26 @@
-	format binary as ""          ; Binary file format without extension
-	
-	use32                        ; Tell compiler to use 32 bit instructions
-	
-	org 0                        ; the base address of code, always 0x0
-	
-	; The header
-	
-	db 'MENUET01'
-	dd 1
-	dd START
-	dd I_END
-	dd MEM
-	dd STACKTOP
-	dd 0, 0
-	
-	include 'macros.inc'
-	include 'syscalls.inc'
-	
-	WIN_X equ 100
-	WIN_Y equ 100
-	WIN_W equ 400
-	WIN_H equ 300
+format binary as ""          ; Binary file format without extension
+
+use32                        ; Tell compiler to use 32 bit instructions
+
+org 0                        ; the base address of code, always 0x0
+
+; The header
+
+db 'MENUET01'
+dd 1
+dd START
+dd I_END
+dd MEM
+dd STACKTOP
+dd 0, 0
+
+include 'macros.inc'
+include 'syscalls.inc'
+
+WIN_X equ 100
+WIN_Y equ 100
+WIN_W equ 400
+WIN_H equ 300
 	
 START:
 	call draw_window
