@@ -1,0 +1,61 @@
+Resolving 192.168.69.1 (192.168.69.1)
+Connecting...
+
+[75,4 connect]: Cannot connect to the server.
+Push any key to continue.Resolving 192.168.69.1 (192.168.69.1)
+Connecting...
+
+[75,4 connect]: Cannot connect to the server.
+Push any key to continue.Resolving 192.168.69.1 (192.168.69.1)
+Connecting...
+
+[75,4 connect]: Cannot connect to the server.
+Push any key to continue.Resolving 192.168.69.191 (192.168.69.191)
+Connecting...
+Waiting for welcome message.
+220 (vsFTPd 3.0.5)
+
+331 Please specify the password.
+
+230 Login successful.
+227 Entering Passive Mode (192,168,69,191,43,207)
+opening data socket
+150 Here comes the directory listing.
+
+closing data socket
+226 Directory send OK.
+250 Directory successfully changed.
+227 Entering Passive Mode (192,168,69,191,154,240)
+opening data socket
+150 Here comes the directory listing.
+
+closing data socket
+226 Directory send OK.
+250 Directory successfully changed.
+227 Entering Passive Mode (192,168,69,191,225,91)
+opening data socket
+150 Here comes the directory listing.
+
+closing data socket
+226 Directory send OK.
+227 Entering Passive Mode (192,168,69,191,40,145)
+opening data socket
+150 Ok to send data.
+
+closing data socket
+226 Transfer complete.
+227 Entering Passive Mode (192,168,69,191,56,42)
+opening data socket
+150 Ok to send data.
+
+closing data socket
+226 Transfer complete.
+227 Entering Passive Mode (192,168,69,191,59,239)
+opening data socket
+150 Ok to send data.
+
+closing data socket
+226 Transfer complete.
+227 Entering Passive Mode (192,168,69,191,194,180)
+opening data socket
+150 Ok to send data.
